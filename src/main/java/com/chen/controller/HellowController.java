@@ -14,6 +14,7 @@ public class HellowController {
         System.out.println("hello");
         System.out.println("cccc");
         int age=22;
+        System.out.println(age);
 
         return "hellworld";
 
