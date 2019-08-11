@@ -12,7 +12,7 @@ public class HellowController {
     public String helloWorld() {
         String name = "chen";
         System.out.println("hello");
-
+        String age=22;
 
         return "hellworld";
 
