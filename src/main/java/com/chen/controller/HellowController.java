@@ -9,16 +9,14 @@ import sun.applet.Main;
 public class HellowController {
     @ResponseBody
     @RequestMapping("/hello")
-    public String helloWorld(){
-    String name="chen";
+    public String helloWorld() {
+        String name = "chen";
         System.out.println("hello");
 
 
-
-    return  "hellworld";
+        return "hellworld";
 
     }
-
 
 
 }
