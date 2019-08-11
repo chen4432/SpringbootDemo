@@ -10,7 +10,8 @@ public class HellowController {
     @ResponseBody
     @RequestMapping("/hello")
     public String helloWorld(){
-
+    String name="chen";
+        System.out.println("hello");
 
 
 
