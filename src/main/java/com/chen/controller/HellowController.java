@@ -12,6 +12,7 @@ public class HellowController {
     @RequestMapping("/hello")
     public String helloWorld() {
         String name = "chen";
+        String name2 = "chen";
         System.out.println("hello");
         System.out.println("cccc");
         int age=22;
