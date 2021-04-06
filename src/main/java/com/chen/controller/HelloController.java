@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import sun.applet.Main;
 
 @Controller
-public class HellowController {
+public class HelloController {
     //2021年4月6日 22:44:35
     @ResponseBody
     @RequestMapping("/hello")
